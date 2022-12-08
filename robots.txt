@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://rashidweb.com/sitemap.xml
+
