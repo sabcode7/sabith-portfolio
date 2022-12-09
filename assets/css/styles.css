@@ -1006,7 +1006,7 @@ img {
 
 /*======================PRICING=============*/
 
-.project__container__new .pricing-table{
+/* .project__container__new .pricing-table{
 
     position: relative;
     gap: 3rem;
@@ -1041,7 +1041,8 @@ img {
     font-size: 10px;
     left: 10px;
 
-}
+}   */   
+
 /*==================== CONTACT ME ====================*/
 .contact__container {
     row-gap: 3rem;
