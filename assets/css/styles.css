@@ -1242,6 +1242,7 @@ img {
         flex-direction: column;
         align-items: center;
     }
+   
 
     .testimonial__img {
         margin-right: 0;
@@ -1254,7 +1255,8 @@ img {
     }
 }
 
-/* For medium devices */
+/* For medium==================== devices */
+
 @media screen and (min-width: 568px) {
     .home__content {
         grid-template-columns: max-content 1fr 1fr;
@@ -1262,9 +1264,13 @@ img {
     .home__data {
         grid-column: initial;
     }
+    
     .home__img {
         order: 1;
         justify-self: center;
+    }
+     .home__blob {
+        width: 280px;
     }
 
     .about__container,
@@ -1281,7 +1287,8 @@ img {
         grid-template-columns: .6fr;
         justify-content: center;
     }
-
+/* ================== @media screen and (min-width: 768px)================== */
+    
     @media screen and (min-width: 768px) {
         .container {
             margin-left: auto;
@@ -1339,7 +1346,7 @@ img {
             column-gap: 2rem;
         }
         .home__blob {
-            width: 270px;
+            width: 300px;
         }
         .home__scroll {
             display: block;
